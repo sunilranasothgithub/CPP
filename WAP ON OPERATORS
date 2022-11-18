@@ -1,0 +1,56 @@
+#include <iostream.h>
+
+using namespace std;
+
+int main(){
+
+int a=10;
+int b=20;
+
+//using Assignment operator
+
+ int b +=a;
+ cout<<b\n;
+ 
+ int a -=b;
+ cout<<a\n;
+ 
+ int a /= b;
+ cout<<a\n;
+ 
+ int b %= a;
+ cout<<b\n;
+ 
+ int b ^= a;
+ cout<<b\n;
+ 
+ //using comparision operator
+ 
+ bool c= a>b;
+ cout<<c\n;
+ 
+ bool d=a<b;
+ cout<<d\n;
+ 
+ bool e=a==b;
+ cout<<e\n;
+ 
+ bool f=a>=b;
+ cout<<f\n;
+ 
+ bool g=a<=b;
+ cout<<g\n;
+ 
+ //using logical operator
+ 
+ bool h=(a>b)&&(b>a);
+ cout<<h\n;
+ 
+ bool i=(a>b)||(b>a);
+ cout<<i\n;
+ 
+ bool g= !(a>b);
+ cout<<g\n;
+ 
+ return 0;
+ }
